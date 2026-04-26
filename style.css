@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Background */
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+.container {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form */
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input */
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #4facfe;
+}
+
+/* Button */
+input[type="submit"] {
+  padding: 10px 15px;
+  border: none;
+  background: #4facfe;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: #007bff;
+}
+
+/* Weather Display */
+.display {
+  margin-top: 20px;
+}
+
+/* City name */
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Weather details */
+.desc {
+  font-size: 16px;
+  color: #666;
+  margin: 8px 0;
+}
+
+.temp {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4facfe;
+}
+
+.windspeed {
+  font-size: 14px;
+  color: #777;
+  margin-top: 5px;
+}
